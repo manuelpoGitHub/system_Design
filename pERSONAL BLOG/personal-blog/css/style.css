@@ -1,0 +1,26 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Font family for the body */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: rgb(199, 231, 242); /* Background color for the body */
+}
+
+header {
+  background: #d3eff2; /* Background color for the header */
+  padding: 1rem; /* Padding for the header */
+  text-align: center; /* Center-align text in the header */
+}
+
+footer {
+  background: #a9d3dd; /* Background color for the footer */
+  color: #040110; /* Text color for the footer */
+  text-align: center; /* Center-align text in the footer */
+  padding: 1rem; /* Padding for the footer */
+}
+
+.footer-text {
+  margin: 0; /* Remove default margin */
+  color: #777; /* Text color for the footer text */
+  font-size: 0.8rem; /* Font size for the footer text */
+}

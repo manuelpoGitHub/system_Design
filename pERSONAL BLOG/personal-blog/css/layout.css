@@ -1,0 +1,41 @@
+/* Layout Styles */
+.blog-homepage {
+  padding: 2rem; /* Padding for the blog homepage section */
+  max-width: 1200px; /* Maximum width for the content */
+  margin: 0 auto; /* Center-align the content */
+}
+
+.content-grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* Define four equal columns */
+  grid-gap: 2rem; /* Gap between grid items */
+}
+
+.sidebar {
+  background: #9ddae1; /* Background color for the sidebar */
+  padding: 1rem; /* Padding for the sidebar */
+  grid-column: span 1; /* Make the sidebar span one column */
+  text-align: left; /* Align text to the left */
+  border-radius: 15px; /* Rounded corners for the panels */
+}
+
+.panel {
+  background: #aee3ec; /* Background color for the panels */
+  padding: 1rem; /* Padding for the panels */
+  text-align: center; /* Center-align text in the panels */
+  border-radius: 15px; /* Rounded corners for the panels */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for the panels */
+}
+
+.blog-post {
+  background: #aee3ec; /* Background color for the blog post */
+  padding: 1rem; /* Padding for the blog post */
+  border-radius: 15px; /* Rounded corners for the blog post */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow for the blog post */
+  grid-column: span 1; /* Make the blog post span one column */
+}
+
+.intro-text {
+  margin: 2rem 0; /* Margin for the introductory text */
+  color: #2014cc; /* Text color for the introductory text */
+}

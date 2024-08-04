@@ -1,0 +1,61 @@
+/* Typography Styles */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Font family for headings */
+    color: #333333; /* Text color for headings */
+}
+
+p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for paragraphs */
+    color: #666; /* Text color for paragraphs */
+}
+
+button {
+    display: block; /* Display buttons as block elements */
+    margin: 1rem 0; /* Margin for buttons */
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    background: #007BFF; /* Background color for buttons */
+    color: #fff; /* Text color for buttons */
+    border: none; /* Remove border from buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+button:hover {
+    background: #0056b3; /* Darker background color on hover */
+}
+
+a {
+    color: #007BFF; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.follow-btn {
+    background-color: #007BFF; /* Background color for follow button */
+    border: 1px solid #007BFF; /* Border color for follow button */
+    color: white; /* Text color for follow button */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0.5rem 1rem; /* Padding for follow button */
+    text-transform: uppercase; /* Uppercase text for follow button */
+}
+
+.follow-btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+.subscribe-btn {
+    background-color: white; /* Background color for subscribe button */
+    border: 1px solid #007BFF; /* Border color for subscribe button */
+    color: #007BFF; /* Text color for subscribe button */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0.5rem 1rem; /* Padding for subscribe button */
+    text-transform: uppercase; /* Uppercase text for subscribe button */
+}
+
+.subscribe-btn:hover {
+    background-color: #a0dcc6; /* Lighter background color on hover */
+}
